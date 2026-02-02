@@ -17,7 +17,7 @@ class GcsDestination extends \Google\Protobuf\Internal\Message
 {
     /**
      * Required. The URI of the Cloud Storage object. It's the same URI that is
-     * used by gsutil. Example: "gs://bucket_name/object_name". See [Viewing and
+     * used by gcloud storage. Example: "gs://bucket_name/object_name". See [Viewing and
      * Editing Object
      * Metadata](https://cloud.google.com/storage/docs/viewing-editing-metadata)
      * for more information.
@@ -37,7 +37,7 @@ class GcsDestination extends \Google\Protobuf\Internal\Message
      *
      *     @type string $uri
      *           Required. The URI of the Cloud Storage object. It's the same URI that is
-     *           used by gsutil. Example: "gs://bucket_name/object_name". See [Viewing and
+     *           used by gcloud storage. Example: "gs://bucket_name/object_name". See [Viewing and
      *           Editing Object
      *           Metadata](https://cloud.google.com/storage/docs/viewing-editing-metadata)
      *           for more information.
@@ -53,7 +53,7 @@ class GcsDestination extends \Google\Protobuf\Internal\Message
 
     /**
      * Required. The URI of the Cloud Storage object. It's the same URI that is
-     * used by gsutil. Example: "gs://bucket_name/object_name". See [Viewing and
+     * used by gcloud storage. Example: "gs://bucket_name/object_name". See [Viewing and
      * Editing Object
      * Metadata](https://cloud.google.com/storage/docs/viewing-editing-metadata)
      * for more information.
@@ -71,7 +71,7 @@ class GcsDestination extends \Google\Protobuf\Internal\Message
 
     /**
      * Required. The URI of the Cloud Storage object. It's the same URI that is
-     * used by gsutil. Example: "gs://bucket_name/object_name". See [Viewing and
+     * used by gcloud storage. Example: "gs://bucket_name/object_name". See [Viewing and
      * Editing Object
      * Metadata](https://cloud.google.com/storage/docs/viewing-editing-metadata)
      * for more information.
@@ -92,5 +92,4 @@ class GcsDestination extends \Google\Protobuf\Internal\Message
     }
 
 }
-
 
